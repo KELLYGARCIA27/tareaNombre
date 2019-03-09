@@ -8,7 +8,7 @@ public class Imprimirnombre {
 
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("cuantas palabras tiene tu nombre?");	
+		System.out.println("¿cuantas palabras tiene tu nombre?");	
 		int cant = sc.nextInt();
 		
 		String arreglo [] = new String[cant];
@@ -17,7 +17,7 @@ public class Imprimirnombre {
 		for(int i=0; i<arreglo.length;i++) {	
 			
 
-			System.out.println("escribe nombre: " + i + arreglo[i]);
+			System.out.println("Escribe nombre: " + i + arreglo[i]);
 			aux = sc.next();
 			arreglo[i]= aux;		
 	}	
